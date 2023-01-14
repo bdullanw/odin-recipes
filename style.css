@@ -1,0 +1,43 @@
+.contents{
+    text-align: center;
+}
+
+.parent,  #header{
+    font-family: 'Times New Roman', sans-serif;
+    color: red;
+    text-align: center;
+    font-style: italic;
+}
+
+.parent{
+    color: black;
+    font-size: 20px;
+}
+
+img{
+    width: 400px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+.list{
+    text-align: center;
+    list-style-type: none;
+}
+
+.steps.list{
+    text-align: start;
+    list-style-type: decimal; /* remove bullets */   
+}
+
+p, ul, ol{
+    font-family: 'Times New Roman', sans-serif;
+    
+}
+
+
+
