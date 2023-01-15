@@ -1,3 +1,5 @@
+
+
 .contents{
     text-align: center;
 }
@@ -29,9 +31,19 @@ img{
     list-style-type: none;
 }
 
+.ingredient.list{
+    display: table;
+    
+    text-align: center;
+}
+
+
+
 .steps.list{
-    text-align: start;
-    list-style-type: decimal; /* remove bullets */   
+    text-align: center;
+    list-style-type: decimal; /* remove bullets */  
+    list-style-position: inside;
+    
 }
 
 p, ul, ol{
@@ -39,5 +51,8 @@ p, ul, ol{
     
 }
 
-
+ul, ol{
+    margin: 0px auto;
+    padding: 0px;
+}
 
